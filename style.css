@@ -1,11 +1,11 @@
+nav {
+    background-color: lightgray;
+}
+
 .container {
     display: flex;
     justify-content: flex-end;
     
-}
-
-nav {
-    background-color: lightgray;
 }
 
 ul {
@@ -28,5 +28,26 @@ a {
 img {
     width: 200px;
     border: 5px solid black;
-    margin: 10px;
+    margin: 90px 90px 0 90px
+
+}
+
+#lilith {
+    margin-left: 610px;
+}
+
+.captions {
+    display: flex;
+    justify-content: center;
+}
+
+.captions p {
+    margin-left: 125px;
+    margin-right: 190px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: lightgrey;
+    padding: 10px;
 }
