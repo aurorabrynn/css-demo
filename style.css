@@ -8,12 +8,12 @@ nav {
     
 }
 
-ul {
+.container ul {
     list-style-type: none;
 
 }
 
-li {
+.container li {
     display: inline-flex;
 
 }
@@ -48,6 +48,19 @@ img {
 }
 
 footer {
+    text-align: center;
     background-color: lightgrey;
     padding: 10px;
+}
+
+footer p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
